@@ -18,7 +18,7 @@ const modalExplanation = document.getElementById('modalExplanation');
 const closeModalButton = document.getElementById('closeModalButton');
 const spaceFact = document.getElementById('spaceFact');
 
-const apiUrl = '/api/apod';
+const apiUrl = 'https://nasa-apod-proxy.soulgawd-space-explorer.workers.dev/api/apod';
 const spaceFacts = [
   'A day on Venus is longer than a year on Venus.',
   'Saturn is less dense than water, though there is no ocean large enough to hold it.',
